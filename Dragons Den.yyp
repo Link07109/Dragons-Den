@@ -1,14 +1,19 @@
 {
   "resources": [
+    {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"order":5,},
+    {"id":{"name":"obj_pause_menu","path":"objects/obj_pause_menu/obj_pause_menu.yy",},"order":6,},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":2,},
     {"id":{"name":"obj_hero","path":"objects/obj_hero/obj_hero.yy",},"order":0,},
+    {"id":{"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},"order":5,},
     {"id":{"name":"spr_hero","path":"sprites/spr_hero/spr_hero.yy",},"order":0,},
+    {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},"order":4,},
+    {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":0,},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":3,},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"order":2,},
     {"id":{"name":"obj_persistent","path":"objects/obj_persistent/obj_persistent.yy",},"order":4,},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"order":3,},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":1,},
-    {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"order":0,},
+    {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},"order":1,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -22,6 +27,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
   ],
   "Folders": [
