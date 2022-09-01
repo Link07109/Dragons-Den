@@ -2,5 +2,5 @@ pause = false
 pauseSurf = -1
 pauseSurfBuffer = -1
 
-resW = 1366
-resH = 768
+resW = window_get_width()
+resH = window_get_height()
