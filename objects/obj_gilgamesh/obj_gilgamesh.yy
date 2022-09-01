@@ -1,14 +1,14 @@
 {
-  "spriteId": {
-    "name": "spr_collision",
-    "path": "sprites/spr_collision/spr_collision.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_rhaegal",
+    "path": "objects/obj_rhaegal/obj_rhaegal.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,11 +25,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "util",
-    "path": "folders/Objects/util.yy",
+    "name": "enemies",
+    "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_collision",
+  "name": "obj_gilgamesh",
   "tags": [],
   "resourceType": "GMObject",
 }

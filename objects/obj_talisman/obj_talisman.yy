@@ -1,9 +1,6 @@
 {
-  "spriteId": {
-    "name": "spr_collision",
-    "path": "sprites/spr_collision/spr_collision.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -25,11 +22,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "util",
-    "path": "folders/Objects/util.yy",
+    "name": "items",
+    "path": "folders/Objects/items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_collision",
+  "name": "obj_talisman",
   "tags": [],
   "resourceType": "GMObject",
 }

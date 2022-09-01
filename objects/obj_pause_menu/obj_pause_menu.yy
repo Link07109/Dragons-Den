@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "util",
+    "path": "folders/Objects/util.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pause_menu",

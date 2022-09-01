@@ -1,6 +1,15 @@
 /// @description Action Code
 
 if is_actionable {
+	
+	// TODO: add fire attack
+	
+	// TODO: add staff attack & combo
+	
+	// TODO: add blocking
+	
+	// TODO: add interaction to open chests
+
 
 	// jump
 	if is_jumping {
