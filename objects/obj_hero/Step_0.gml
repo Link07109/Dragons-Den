@@ -7,9 +7,16 @@ if is_actionable {
 	// TODO: add staff attack & combo
 	
 	// TODO: add blocking
+	if keyboard_check(vk_space) {
+		if !instance_exists(obj_shield)
+			shield = instance_create_layer(x, y, "Hero", obj_shield)
+		shield.x = x
+		shield.y = y
+	} else {
+		if instance_exists(obj_shield)
+			instance_destroy(obj_shield)
+	}
 	
-	// TODO: add interaction to open chests
-
 
 	// jump
 	if is_jumping {
@@ -20,7 +27,7 @@ if is_actionable {
 			// sprite_index = spr_hero_jump
 			// image_index = 1 // 0 is for when landed on ground
 			
-			if !keyboard_check(ord("W"))
+			if (!keyboard_check(ord("W")))
 				vspeed = vspeed / 2
 		}
 	} else if !is_jumping {                  

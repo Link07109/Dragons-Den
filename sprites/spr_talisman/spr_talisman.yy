@@ -10,7 +10,7 @@
   "bbox_left": 0,
   "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 62,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6d50873e-e64f-4a35-9bbc-cc1a48d7247c","path":"sprites/spr_transition/spr_transition.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6d50873e-e64f-4a35-9bbc-cc1a48d7247c","path":"sprites/spr_transition/spr_transition.yy",},"LayerId":{"name":"e568b12b-576c-45fd-80a9-bb55cc2682dc","path":"sprites/spr_transition/spr_transition.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},"resourceVersion":"1.0","name":"6d50873e-e64f-4a35-9bbc-cc1a48d7247c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4cefa73a-8db7-4140-beb1-448077f3732e","path":"sprites/spr_talisman/spr_talisman.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4cefa73a-8db7-4140-beb1-448077f3732e","path":"sprites/spr_talisman/spr_talisman.yy",},"LayerId":{"name":"c2d7944b-15fb-4a56-b8a4-21ada9957287","path":"sprites/spr_talisman/spr_talisman.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_talisman","path":"sprites/spr_talisman/spr_talisman.yy",},"resourceVersion":"1.0","name":"4cefa73a-8db7-4140-beb1-448077f3732e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},
+    "spriteId": {"name":"spr_talisman","path":"sprites/spr_talisman/spr_talisman.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"489fd28c-55ae-4176-8d6e-61bcf5e6e321","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d50873e-e64f-4a35-9bbc-cc1a48d7247c","path":"sprites/spr_transition/spr_transition.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"1e3df978-95e0-4705-9b1b-e162d01d1fa1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4cefa73a-8db7-4140-beb1-448077f3732e","path":"sprites/spr_talisman/spr_talisman.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},
+    "parent": {"name":"spr_talisman","path":"sprites/spr_talisman/spr_talisman.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_transition",
+    "name": "spr_talisman",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e568b12b-576c-45fd-80a9-bb55cc2682dc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c2d7944b-15fb-4a56-b8a4-21ada9957287","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "util",
-    "path": "folders/Sprites/util.yy",
+    "name": "items",
+    "path": "folders/Sprites/items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_transition",
+  "name": "spr_talisman",
   "tags": [],
   "resourceType": "GMSprite",
 }

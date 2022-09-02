@@ -11,7 +11,7 @@ if pause {
 	surface_reset_target()
 }
 
-if keyboard_check_pressed(vk_space) {
+if keyboard_check_pressed(vk_escape) {
 	if !pause { // pause
 		pause = true
 		instance_deactivate_all(true)
@@ -22,14 +22,20 @@ if keyboard_check_pressed(vk_space) {
 		
 		gpu_set_blendenable(true)
 		
-		draw_set_alpha(0.3)
-		colorr = make_color_rgb(100, 100, 100)
+		// draw transparent color filter over surface
+		draw_set_alpha(0.5)
+		colorr = c_black
 		draw_rectangle_color(0, 0, resW, resH, colorr, colorr, colorr, colorr, false);
 		draw_set_alpha(1)
 		
-		draw_text(resW/2, resH/2 - 48, "Paused")
-		draw_text(resW/2, resH/2, "Continue")
-		draw_text(resW/2, resH/2 + 32, "Quit")
+		// this function is from a custom script
+		draw_inventory_items(resW, resH, has_talisman)
+		
+		draw_text_transformed(232, resH/2, "Paused", 2, 2, 0)
+		// draw_text_transformed(resW/2 - 72 - 128, resH/2, "Continue", 2, 2, 0)
+		// draw_text_transformed(resW/2 - 128, resH/2, "Quit", 2, 2, 0)
+		
+		draw_text_transformed(resW/2 + 32, resH/2, "Items", 2, 2, 0)
 		
 		gpu_set_blendenable(false)
 		surface_reset_target()

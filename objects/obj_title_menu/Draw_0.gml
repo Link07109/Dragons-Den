@@ -1,6 +1,8 @@
-draw_set_valign(v_align)
-draw_set_halign(h_align)
-// draw_set_font(fnt_honey)
+draw_set_valign(fa_middle)
+draw_set_halign(fa_center)
+// draw_set_font(fnt_?)
+
+draw_text_transformed(window_get_width()/2, window_get_height()/2 - 128, "Dragon's Den", text_scale, text_scale, 0)
 
 for (var i = 0; i < array_length(options); i++) {
 	var col = color1
@@ -8,5 +10,5 @@ for (var i = 0; i < array_length(options); i++) {
 	if cursor_pos == i
 		col = color2
 	
-	draw_text_transformed_color(x + border * text_size, y + border * text_size + margin * i * text_size, options[i], text_size, text_size, 0, col, col, col, col, 1)
+	draw_text_transformed_color(window_get_width()/2, window_get_height()/2 + (48 * i), options[i], text_scale, text_scale, 0, col, col, col, col, 1)
 }

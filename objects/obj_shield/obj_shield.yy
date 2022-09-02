@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_talisman",
-    "path": "sprites/spr_talisman/spr_talisman.yy",
+    "name": "spr_shield",
+    "path": "sprites/spr_shield/spr_shield.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,11 +25,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "items",
-    "path": "folders/Objects/items.yy",
+    "name": "hero",
+    "path": "folders/Objects/hero.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_talisman",
+  "name": "obj_shield",
   "tags": [],
   "resourceType": "GMObject",
 }
