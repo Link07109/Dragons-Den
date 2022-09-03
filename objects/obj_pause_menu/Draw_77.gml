@@ -29,7 +29,7 @@ if keyboard_check_pressed(vk_escape) {
 		draw_set_alpha(1)
 		
 		// this function is from a custom script
-		draw_inventory_items(resW, resH, has_talisman)
+		draw_inventory_items(resW, resH, has_talisman, has_scarf)
 		
 		draw_text_transformed(232, resH/2, "Paused", 2, 2, 0)
 		// draw_text_transformed(resW/2 - 72 - 128, resH/2, "Continue", 2, 2, 0)
