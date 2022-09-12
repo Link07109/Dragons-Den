@@ -2,7 +2,7 @@
 
 if is_vulnerable {
 	hp -= other.attack_damage
-	alarm[0] = 2000 // ms
+	alarm[0] = 120 // frames (2 seconds)
 	vulnerable = false
 }
 
