@@ -1,6 +1,8 @@
 {
   "resources": [
     {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"order":0,},
+    {"id":{"name":"spr_baby_dragon","path":"sprites/spr_baby_dragon/spr_baby_dragon.yy",},"order":0,},
+    {"id":{"name":"spr_baby_dragon_attack","path":"sprites/spr_baby_dragon_attack/spr_baby_dragon_attack.yy",},"order":1,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":0,},
     {"id":{"name":"spr_chekcpoint","path":"sprites/spr_chekcpoint/spr_chekcpoint.yy",},"order":6,},
     {"id":{"name":"spr_shield","path":"sprites/spr_shield/spr_shield.yy",},"order":2,},
@@ -16,7 +18,7 @@
     {"id":{"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},"order":1,},
     {"id":{"name":"obj_gilgamesh","path":"objects/obj_gilgamesh/obj_gilgamesh.yy",},"order":4,},
     {"id":{"name":"spr_hero","path":"sprites/spr_hero/spr_hero.yy",},"order":0,},
-    {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},"order":1,},
+    {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},"order":4,},
     {"id":{"name":"spr_talisman","path":"sprites/spr_talisman/spr_talisman.yy",},"order":0,},
     {"id":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},"order":6,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":0,},
@@ -73,11 +75,12 @@
     {"folderPath":"folders/Objects/enemies.yy","order":2,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/hero.yy","order":1,"resourceVersion":"1.0","name":"hero","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/items.yy","order":3,"resourceVersion":"1.0","name":"items","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/items.yy","order":3,"resourceVersion":"1.0","name":"items","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/enemies.yy","order":2,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/util.yy","order":4,"resourceVersion":"1.0","name":"util","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/items.yy","order":2,"resourceVersion":"1.0","name":"items","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/enemies.yy","order":1,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/util.yy","order":3,"resourceVersion":"1.0","name":"util","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/hero/spells.yy","order":3,"resourceVersion":"1.0","name":"spells","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/hero/spells/fire.yy","order":1,"resourceVersion":"1.0","name":"fire","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/enemies/baby_dragon.yy","order":2,"resourceVersion":"1.0","name":"baby_dragon","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
