@@ -3,7 +3,7 @@
 if is_vulnerable {
 	hp -= other.attack_damage
 	alarm[0] = 120 // frames (2 seconds)
-	vulnerable = false
+	is_vulnerable = false
 }
 
 if hp <= 0 { // death

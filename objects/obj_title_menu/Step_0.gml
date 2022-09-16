@@ -15,7 +15,7 @@ if cursor_pos < 0
 if keyboard_check_pressed(vk_space) {
 	switch(cursor_pos) {
 		case 0: // Start
-			room_goto(rm_1)
+			room_goto(rm_top)
 			break
 		
 		case 1: // Quit

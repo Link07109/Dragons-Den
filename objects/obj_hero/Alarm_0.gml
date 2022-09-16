@@ -1,3 +1,3 @@
 /// @description Damage timer
 
-vulnerable = true
+is_vulnerable = true

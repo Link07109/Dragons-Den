@@ -2,9 +2,9 @@
 
 if is_actionable {
 	
-	// TODO: add fire attack
+	// TODO: add magic attacks
 	
-	// TODO: add staff attack & combo
+	// TODO: add staff attack
 	
 	// TODO: add blocking
 	if keyboard_check(vk_space) {
@@ -55,7 +55,7 @@ if is_actionable {
 	}
 	
 
-	// collision checking
+	// vertical collision checking
 	if (instance_place(x, y + 5, obj_collision)) {
 		gravity = 0
 		is_jumping = false

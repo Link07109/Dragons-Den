@@ -1,3 +1,5 @@
 /// @description movement AI
 
-x += move_speed * direction_mult
+if can_move {
+	x += move_speed * direction_mult
+}
