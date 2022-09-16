@@ -1,11 +1,17 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_fire_projectile",
+    "path": "sprites/spr_fire_projectile/spr_fire_projectile.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_hero_spell",
+    "path": "objects/obj_hero_spell/obj_hero_spell.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

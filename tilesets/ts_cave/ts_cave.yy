@@ -1,9 +1,4 @@
 {
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
-  "name": "ts_cave",
   "spriteId": {
     "name": "spr_crystal_tiles",
     "path": "sprites/spr_crystal_tiles/spr_crystal_tiles.yy",
@@ -14,9 +9,13 @@
   "tileyoff": 0,
   "tilehsep": 0,
   "tilevsep": 0,
+  "spriteNoExport": false,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
-  "spriteNoExport": false,
   "out_columns": 12,
   "tile_count": 135,
   "autoTileSets": [
@@ -209,6 +208,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "ts_cave",
   "tags": [],
   "resourceType": "GMTileSet",
 }

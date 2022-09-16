@@ -16,7 +16,7 @@ if instance_exists(obj_hero) {
 	// draw_sprite_ext(spr_key, 0, 16, 32, .125, .125, 0, -1, 1)
 	// draw_text_ext_transformed(28, 32, string(obj_hero.num_keys), -1, -1, .2, .2, 0)
 	
-	// draw_sprite_ext(object_get_sprite(obj_hero.weapon), 0, 45, 30, .11, .11, 0, -1, 1)
+	draw_sprite_ext(object_get_sprite(obj_hero.cur_spell), 0, 48, 150, 1, 1, 0, -1, 1)
 	
 	// if interaction { // show text box
 		// draw_sprite_ext(spr_text_1, 0, 16, 32, .125, .125, 0, -1, 1)

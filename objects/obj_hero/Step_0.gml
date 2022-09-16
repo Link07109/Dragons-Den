@@ -3,11 +3,19 @@
 if is_actionable {
 	
 	// TODO: add magic attacks
+	if keyboard_check(vk_space) {
+		if can_shoot {
+			spell = instance_create_layer(x, y, "Projectiles", cur_spell)
+			spell.dir = image_xscale
+			can_shoot = false
+			alarm[1] = 120
+		}
+	}
 	
 	// TODO: add staff attack
 	
 	// TODO: add blocking
-	if keyboard_check(vk_space) {
+	if keyboard_check(vk_shift) {
 		if !instance_exists(obj_shield)
 			shield = instance_create_layer(x, y, "Hero", obj_shield)
 		shield.x = x
