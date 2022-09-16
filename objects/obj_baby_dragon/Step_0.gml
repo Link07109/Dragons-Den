@@ -8,12 +8,12 @@ if instance_exists(obj_hero) { // check if hero is alive
 		if can_aggro {
 			alarm[0] = 30
 			move_towards_point(obj_hero.x, y, 4);
-			sprite_index = spr_enemy
+			sprite_index = spr_baby_dragon_attack
 			
 			if (obj_hero.x > x)
-				image_xscale = 1
-			else
 				image_xscale = -1
+			else
+				image_xscale = 1
 		} else {
 			speed = 0
 			sprite_index = spr_baby_dragon
