@@ -12,6 +12,11 @@ if hp <= 0 { // death
 		hp = 2
 		scarf_available = false // becomes true again at a checkpoint
 	} else {
-		instance_destroy() // would be replaced with a death animation and then on the animation end it would get destroyed
+		obj_gui.num_lives_left -= 1
+		room_restart()
+		// instance_destroy() // would be replaced with a death animation and then on the animation end it would get destroyed
+		if num_lives_left <= 0 { // game over
+			game_restart()
+		}
 	}
 }

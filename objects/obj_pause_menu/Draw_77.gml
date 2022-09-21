@@ -11,7 +11,7 @@ if pause {
 	surface_reset_target()
 }
 
-if keyboard_check_pressed(vk_escape) {
+if keyboard_check_pressed(vk_tab) {
 	if !pause { // pause
 		pause = true
 		instance_deactivate_all(true)

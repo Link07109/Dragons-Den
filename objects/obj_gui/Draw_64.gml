@@ -10,15 +10,18 @@ if !shouldDraw
 
 if instance_exists(obj_hero) {
 	for (var i = 0; i < obj_hero.hp; i++) {
-		draw_sprite(spr_heart, 0, (64 + 40 * i), 64)
+		draw_sprite_ext(spr_heart, 0, (64 + 64 + 32 * i), 64, 0.75, 0.75, 0, -1, 1)
 	}
 	
-	// draw_sprite_ext(spr_key, 0, 16, 32, .125, .125, 0, -1, 1)
-	// draw_text_ext_transformed(28, 32, string(obj_hero.num_keys), -1, -1, .2, .2, 0)
+	// mana bar
+	draw_healthbar(49 + 64, 100, 250, 116, 100, c_black, c_aqua, c_aqua, 0, true, true);
 	
-	draw_sprite_ext(object_get_sprite(obj_hero.cur_spell), 0, 48, 150, 1, 1, 0, -1, 1)
+	// lives
+	draw_sprite_ext(spr_hero_lives, num_lives_left, 64, 64 + 32, 2.5, 2.5, 0, -1, 1)
+	
+	draw_sprite_ext(object_get_sprite(obj_hero.cur_spell), 0, 48 + 64, 150, 1, 1, 0, -1, 1)
 	
 	// if interaction { // show text box
-		// draw_sprite_ext(spr_text_1, 0, 16, 32, .125, .125, 0, -1, 1)
+		// draw_sprite_ext(spr_textbox, 0, 16, 32, 1, 1, 0, -1, 1)
 	// }
 }
