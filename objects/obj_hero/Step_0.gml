@@ -5,6 +5,7 @@ if is_actionable {
 	// TODO: add magic attacks
 	if keyboard_check(vk_space) {
 		if can_shoot {
+			sprite_index = spr_hero_spell_attack
 			spell = instance_create_layer(x, y, "Projectiles", cur_spell)
 			spell.dir = image_xscale
 			can_shoot = false
@@ -43,7 +44,7 @@ if is_actionable {
 			vspeed = jump_height
 			// audio_play_sound(snd_jump, 1, false)
 		} else {
-			sprite_index = spr_hero
+			// sprite_index = spr_hero
 		}
 	}
 
