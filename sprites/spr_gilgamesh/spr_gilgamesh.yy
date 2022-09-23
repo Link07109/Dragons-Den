@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 511,
-  "bbox_top": 0,
-  "bbox_bottom": 511,
+  "bbox_right": 125,
+  "bbox_top": 8,
+  "bbox_bottom": 121,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 512,
-  "height": 512,
+  "width": 128,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4397dbf0-7471-4168-a1fd-2174a026f04c","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4397dbf0-7471-4168-a1fd-2174a026f04c","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"LayerId":{"name":"7f7b8022-a254-45ed-995c-90870e8b6ec6","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gilgamesh","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"resourceVersion":"1.0","name":"4397dbf0-7471-4168-a1fd-2174a026f04c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9820ce6f-0c18-41f2-8e5b-608a975480bd","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9820ce6f-0c18-41f2-8e5b-608a975480bd","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"LayerId":{"name":"3cd74c9b-a64e-4e55-ae3f-403b1d2b090c","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gilgamesh","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"resourceVersion":"1.0","name":"9820ce6f-0c18-41f2-8e5b-608a975480bd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_gilgamesh","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cfa584ed-c88e-4cb9-8397-6b4e13bcf2aa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4397dbf0-7471-4168-a1fd-2174a026f04c","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"9a2f6d70-ab6c-47cb-882f-b5778e0e3e38","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9820ce6f-0c18-41f2-8e5b-608a975480bd","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 256,
-    "yorigin": 256,
+    "xorigin": 64,
+    "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gilgamesh","path":"sprites/spr_gilgamesh/spr_gilgamesh.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7f7b8022-a254-45ed-995c-90870e8b6ec6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3cd74c9b-a64e-4e55-ae3f-403b1d2b090c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

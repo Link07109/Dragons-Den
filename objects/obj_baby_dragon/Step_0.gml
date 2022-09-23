@@ -6,8 +6,11 @@ if instance_exists(obj_hero) { // check if hero is alive
 		// dash attack
 		
 		if can_aggro {
-			alarm[0] = 30
-			move_towards_point(obj_hero.x, y, 4);
+			if !aggro_timer_started {
+				alarm[0] = 23
+				aggro_timer_started = true
+			}
+			move_towards_point(obj_hero.x, y, 8);
 			sprite_index = spr_baby_dragon_attack
 			
 			if (obj_hero.x > x)
@@ -22,4 +25,5 @@ if instance_exists(obj_hero) { // check if hero is alive
 }
 
 // Inherit the parent event
-event_inherited();
+if !can_aggro
+	event_inherited()

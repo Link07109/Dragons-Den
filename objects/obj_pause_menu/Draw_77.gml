@@ -1,4 +1,5 @@
 gpu_set_blendenable(false)
+// display_set_gui_size()
 
 if pause {
 	surface_set_target(application_surface)

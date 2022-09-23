@@ -1,4 +1,5 @@
 /// @description Aggro alarm
 
 can_aggro = false
-alarm[1] = 90
+aggro_timer_started = false
+alarm[1] = 120

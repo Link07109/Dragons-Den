@@ -3,7 +3,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_fire_projectile",
+    "path": "sprites/spr_fire_projectile/spr_fire_projectile.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

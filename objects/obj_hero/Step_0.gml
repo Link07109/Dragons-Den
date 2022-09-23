@@ -3,17 +3,26 @@
 if is_actionable {
 	
 	// TODO: add magic attacks
-	if keyboard_check(vk_space) {
-		if can_shoot {
+	if keyboard_check_pressed(ord("E")) {
+		if can_shoot && mana >= 25 {
 			sprite_index = spr_hero_spell_attack
-			spell = instance_create_layer(x, y, "Projectiles", cur_spell)
-			spell.dir = image_xscale
+			mana -= 25
 			can_shoot = false
-			alarm[1] = 120
+			is_actionable = false
+			alarm[1] = 120 // cooldown
+			alarm[2] = 32 // when the fireball actually comes out
 		}
 	}
 	
 	// TODO: add staff attack
+	if keyboard_check_pressed(vk_space) {
+		if can_attack {
+			sprite_index = spr_hero_attack
+			// create attack hitbox
+			can_attack = false
+			is_actionable = false
+		}
+	}
 	
 	// TODO: add blocking
 	if keyboard_check(vk_shift) {
@@ -30,11 +39,11 @@ if is_actionable {
 	// jump
 	if is_jumping {
 		if (vspeed >= 0) {
-			// sprite_index = spr_hero_fall
-			// image_index = 1 // 0 is for when starting to jump off ground
+			sprite_index = spr_hero_crouch
+			image_index = 2
 		} else {
-			// sprite_index = spr_hero_jump
-			// image_index = 1 // 0 is for when landed on ground
+			sprite_index = spr_hero_jump
+			image_index = 2
 			
 			if (!keyboard_check(ord("W")))
 				vspeed = vspeed / 2

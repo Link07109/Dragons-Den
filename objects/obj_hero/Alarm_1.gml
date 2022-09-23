@@ -1,4 +1,4 @@
-/// @description Fire blast attack timer
+/// @description Fire attack cooldown
 
 can_shoot = true
-sprite_index = spr_hero
+is_actionable = true
