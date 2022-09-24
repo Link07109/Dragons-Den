@@ -1,3 +1,3 @@
 alarm[0] = 60
-image_yscale = 4
-image_xscale = 3
+image_yscale = 3
+image_xscale = 2

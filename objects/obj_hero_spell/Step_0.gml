@@ -1,4 +1,5 @@
 /// @description move
-
-x += 14 * dir
-image_xscale = dir
+if sprite_index != spr_fire_blast {
+	x += 14 * dir
+	image_xscale = dir
+}

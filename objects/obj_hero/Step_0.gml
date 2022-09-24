@@ -11,6 +11,8 @@ if is_actionable {
 			is_actionable = false
 			alarm[1] = 120 // cooldown
 			alarm[2] = 32 // when the fireball actually comes out
+		} else {
+			audio_play_sound(snd_no_mana, 0, false)
 		}
 	}
 	
@@ -19,6 +21,7 @@ if is_actionable {
 		if can_attack {
 			sprite_index = spr_hero_attack
 			// create attack hitbox
+			alarm[3] = 10 // when the hitbox actually comes out
 			can_attack = false
 			is_actionable = false
 		}
@@ -26,10 +29,12 @@ if is_actionable {
 	
 	// TODO: add blocking
 	if keyboard_check(vk_shift) {
-		if !instance_exists(obj_shield)
+		if !instance_exists(obj_shield) {
 			shield = instance_create_layer(x, y, "Hero", obj_shield)
+			audio_play_sound(snd_shield_activate, 0, false)
+		}
 		shield.x = x
-		shield.y = y
+		shield.y = y + 16
 	} else {
 		if instance_exists(obj_shield)
 			instance_destroy(obj_shield)
@@ -38,6 +43,9 @@ if is_actionable {
 
 	// jump
 	if is_jumping {
+		can_attack = false
+		can_shoot = false
+		
 		if (vspeed >= 0) {
 			sprite_index = spr_hero_crouch
 			image_index = 2
@@ -48,7 +56,10 @@ if is_actionable {
 			if (!keyboard_check(ord("W")))
 				vspeed = vspeed / 2
 		}
-	} else if !is_jumping {                  
+	} else if !is_jumping {
+		can_attack = true
+		can_shoot = true
+		
 		if (keyboard_check_pressed(ord("W"))) {
 			vspeed = jump_height
 			// audio_play_sound(snd_jump, 1, false)

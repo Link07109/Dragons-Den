@@ -1,4 +1,9 @@
-hp -= 2
+if is_vulnerable {
+	hp -= 2
+	audio_play_sound(snd_gilgamesh_hurt, 0, false)
+	is_vulnerable = false
+	alarm[2] = 60
+}
 
 if !is_dead && hp <= 0 { // dead
 	cur_state = states[4]
@@ -6,4 +11,5 @@ if !is_dead && hp <= 0 { // dead
 	is_dead = true
 	y += 6
 	audio_stop_all()
+	audio_play_sound(snd_gilgamesh_death, 0, false)
 }

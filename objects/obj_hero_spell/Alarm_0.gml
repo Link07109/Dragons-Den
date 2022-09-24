@@ -1,3 +1,3 @@
 /// @description Destroy timer
-
-instance_destroy()
+if sprite_index != spr_fire_blast
+	instance_destroy()

@@ -15,6 +15,7 @@ if cursor_pos < 0
 if keyboard_check_pressed(vk_space) {
 	switch(cursor_pos) {
 		case 0: // Start
+			audio_play_sound(snd_press_start, 0, false)
 			room_goto(rm_top)
 			break
 		
